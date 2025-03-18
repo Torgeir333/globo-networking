@@ -20,6 +20,11 @@ variable "environment" {
   default     = "development"
 }
 
+variable "billing_code" {
+  type        = string
+  description = "(required) Blir satt i Terraform Cloud workspace"
+}
+
 variable "cidr_block" {
   type        = string
   description = "(Optional) The CIDR block for the VPC. Default:10.42.0.0/16"
