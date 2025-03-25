@@ -10,11 +10,11 @@
 # 25.03.25: Kurs video 7.11 skal sette tfe_outputs.
 
 output "vpc_id" {
-  value = module.main.vpc_id
+  value       = module.main.vpc_id
   description = "VPC ID"
 }
 
 output "public_subnets" {
-  value = module.main.public_subnets
+  value       = module.main.public_subnets
   description = "Public Subnets"
 }
